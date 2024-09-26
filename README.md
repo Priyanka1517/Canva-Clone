@@ -79,7 +79,7 @@ This is a Canva-like web application built using the MERN stack. The app allows 
     npm install
 
     # Frontend
-    cd client
+    cd frontend/
     npm install
 
     ```
@@ -101,18 +101,17 @@ This is a Canva-like web application built using the MERN stack. The app allows 
 4. Run the application:
 
     ```bash
-    
     # Database
-    docker-compose up
+    docker-compose up -d
     docker exec -it mongodb_container bash
     mongosh -u admin -p password --authenticationDatabase admin
 
     # Backend
-    npm run dev
+    npm run server
 
     # Frontend
     cd ./frontend
-    npm start
+    npm run start
     ```
 
 5. Visit `http://localhost:3000` in your browser to view the application.
