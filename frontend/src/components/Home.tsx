@@ -95,6 +95,7 @@ const Home = () => {
 
 
     return (
+        //Learning to pull request with github
         <div className='pt-5'>
 
             <div className='w-fill h-[250px] rounded-md overflow-hidden'>
